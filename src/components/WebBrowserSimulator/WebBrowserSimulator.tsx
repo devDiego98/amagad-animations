@@ -6,7 +6,7 @@ interface WebBrowserSimulatorProps {
 
 const WebBrowserSimulator = ({ children }: WebBrowserSimulatorProps) => {
   const [isVisible, setIsVisible] = useState(true);
-  const [isMinimized, setIsMinimized] = useState(false);
+  const [isMinimized, setIsMinimized] = useState(true);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [wasMinimized, setWasMinimized] = useState(false);
   const containerRef = useRef<HTMLDivElement | null>(null);
