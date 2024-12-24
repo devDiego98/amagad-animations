@@ -208,7 +208,7 @@ const ButtonContainer = styled.div`
   position: relative;
   display: inline-flex;
   align-items: center;
-  z-index: 10;
+  z-index: 1;
 `;
 
 const baseButtonStyles = css`
